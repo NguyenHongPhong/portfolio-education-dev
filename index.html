@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Education platform offering courses in web design and development">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Education Development</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-DMH_QnNy.css">
+</head>
+
+<body>
+    <header class="w-full pt-6 bg-bg-myPage ">
+        <div class="w-[90%] mx-auto sm:max-w-[90%] md:max-w-screen-md lg:max-w-screen-lg xl:max-w-[1170px]">
+            <div class="flex">
+                <div class="w-1/2 flex items-center">
+                    <img class="h-5" src="/assets/logo-jgL2KIN4.png" alt="Logo">
+                </div>
+                <div class="w-1/2 flex">
+                    <nav class="w-3/5 h-full max-lg:hidden block">
+                        <ul class="flex justify-between items-center h-full">
+                            <li>Home</li>
+                            <li>Courses</li>
+                            <li>Pricing</li>
+                            <li>Reviews</li>
+                        </ul>
+                    </nav>
+                    <div class="
+                        w-full lg:w-2/5
+                        flex
+                        md:max-lg:w-full
+                        md:max-lg:justify-end
+                        md:max-lg:items-center
+                        justify-end
+                    ">
+                        <button class="ml-16 bg-black rounded-2xl text-white w-24 h-9 p-1 text-xs font-semibold
+                        hidden sm:block md:block lg:block xl:block
+                        ">Sign
+                            Up</button>
+                        <div class="group">
+                            <label for="nav-status" id="sideNav"
+                                class=" max-lg:ml-7 text-2xl hidden max-lg:block peer">&#9776;
+                                <input class="hidden" type="checkbox" id="nav-status" />
+                            </label>
+                            <label id="overlay" for="nav-status" class="fixed inset-0 bg-overlay z-40 opacity-0 peer-checked:pointer-events-auto 
+                                 peer-has-checked:opacity-100 transition-opacity duration-300 ease-out
+                                 pointer-events-none
+                                 "></label>
+                            <aside class="fixed top-0 right-0 z-50 shadow-lg bg-white
+                                            w-full h-2/5 md:max-lg:w-64 md:max-lg:h-full max-sm:h-full
+                                            opacity-0 translate-x-full peer-checked:pointer-events-auto 
+                                            peer-has-checked:opacity-100 peer-has-checked:translate-x-0
+                                            transition-all duration-300 ease-in
+                                            " id="sidebar">
+                                <div class="h-1/5">
+                                    <nav class="flex flex-col h-full text-text-p text-xl px-6 justify-between">
+                                        <a class="flex justify-end text-red-500 py-2.5" id="closeBtn">
+                                            <label for="nav-status">
+                                                &times;
+                                            </label>
+                                        </a>
+                                        <a href="#">Home</a>
+                                        <hr class="w">
+                                        <a href="#courses">Courses</a>
+                                        <hr>
+                                        <a href="#pricing">Pricing</a>
+                                        <hr>
+                                        <a href="#review">Reviews</a>
+                                        <hr class="hidden max-sm:block">
+                                        <a class="hidden max-sm:block" href="#signup">Sign Up</a>
+                                    </nav>
+                                </div>
+                            </aside>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="w-full">
+        <section class="w-full bg-bg-myPage pt-7 h-500 max-sm:h-fit max-sm:pb-7">
+            <div class="w-[95%] h-full max-w-[95%] mx-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-[1170px]">
+                <div class="flex h-full">
+                    <div
+                        class="max-sm:hidden w-full lg:w-1/2 lg:h-200 rounded-2xl flex justify-center lg:justify-end px-4 lg:pr-20 md:lg:pr-12">
+                        <img class="w-full max-w-md lg:w-2/5 object-cover object-[0_10%] rounded-2xl "
+                            src="/assets/student-DROpfh_k.png" alt="">
+                    </div>
+                    <div class="w-full lg:w-1/2 px-4 lg:pl-20 md:lg:pl-12">
+                        <h1 class="
+                            text-3xl md:text-4xl lg:text-5xl
+                            font-bold
+                            leading-tight md:leading-13 lg:leading-16
+                        ">
+                            Learn without limits and spread
+                            knowledge.</h1>
+                        <div class="hidden max-sm:block my-5 rounded-2xl h-60 w-full bg-[url(./images/student.png)] bg-no-repeat bg-cover
+                            bg-[center_15%]
+                            ">
+                        </div>
+                        <p class="mt-3.5 text-text-p w-full md:max-lg:w-full">Build new skills for that "this is my
+                            fear"
+                            feeling with
+                            courses,
+                            certificates,
+                            and degrees from
+                            world-class universities and companies.
+                        </p>
+                        <div class="mt-6 flex w-3/5 md:max-lg:w-full max-sm:w-full">
+                            <button class="w-32 h-10 font-bold bg-btn text-sm text-white rounded-2xl mr-10">
+                                See Courses
+                            </button>
+                            <span class="flex items-center">
+                                <i class="fa-solid fa-circle-play bg-amber-300 text-white rounded-full text-2xl"></i>
+                                <button class="ml-2.5 font-bold">
+                                    Watch video
+                                </button>
+                            </span>
+                        </div>
+                        <div class="mt-7">Recent engagement</div>
+                        <div class="mt-2.5 flex w-2/5 justify-between max-sm:w-full max-sm:px-10">
+                            <span class="flex items-center mr-5">
+                                <h2 class="font-bold text-2xl mr-2.5">50K</h2>
+                                <p>Students</p>
+                            </span>
+                            <span class="flex items-center">
+                                <h2 class="font-bold text-2xl mr-2.5">70+</h2>
+                                <p>Courses</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-24">
+            <div class="w-[90%] mx-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-[1170px]">
+                <header>
+                    <h2 id="courses-heading" class="font-semibold text-4xl">Our popular courses</h2>
+                    <p class="w-72 text-text-p text-sm mt-2">Build new skills with new trendy courses
+                        and shine for the
+                        next
+                        future
+                        career.</p>
+                </header>
+
+                <div class="mt-9">
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-5 md:gap-5 md:grid-cols-2">
+                        <li class="max-w-370 w-370 h-466">
+                            <figure class="w-full md:w-[95%]">
+                                <img class="w-full h-278 object-cover rounded-xl" src="/assets/basicWebDesign-Dm8IJjLm.png"
+                                    alt="Trulli">
+                                <div class="px-4 mt-3">
+                                    <figcaption>
+                                        <div class="flex justify-between">
+                                            <h3 class="font-poppins text-lg font-semibold leading-8 ">Basic web
+                                                design
+                                            </h3>
+                                            <span class="text-[#FEA31B]"> <i class="fa-solid fa-star"></i>
+                                                4.5</span>
+                                        </div>
+                                        <p class="mt-2.5 font-poppins text-sm font-normal leading-6">Get the best
+                                            course, gain
+                                            knowledge and shine for your future
+                                            career.</p>
+                                        <div class="mt-1.5 flex justify-between items-center">
+                                            <span class="font-poppins font-semibold text-black text-lg">$120.75</span>
+                                            <button class="w-28 h-12 rounded-3xl bg-[#FFB900] text-white">Book
+                                                Now</button>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="max-w-370 w-370 h-466">
+                            <figure class="w-full md:w-[95%]">
+                                <img class="w-full h-278 object-cover rounded-xl" src="/assets/UI_UX-B_U35nfy.png" alt="Trulli">
+                                <div class="px-4 mt-3">
+                                    <figcaption>
+                                        <div class="flex justify-between">
+                                            <h3 class="font-poppins text-lg font-semibold leading-8 ">UI/UX design
+                                            </h3>
+                                            <span class="text-[#FEA31B]"> <i class="fa-solid fa-star"></i>
+                                                4.5</span>
+                                        </div>
+                                        <p class="mt-2.5 font-poppins text-sm font-normal leading-6">Get the best
+                                            course, gain
+                                            knowledge and shine for your future
+                                            career.</p>
+                                        <div class="mt-1.5 flex justify-between items-center">
+                                            <span class="font-poppins font-semibold text-black text-lg">$120.75</span>
+                                            <button class="w-28 h-12 rounded-3xl bg-black text-white">Book
+                                                Now</button>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                            </figure>
+                        </li>
+                        <li class="max-w-370 w-370 h-466">
+                            <figure class="w-full md:w-[95%]">
+                                <img class="w-full h-278 object-cover rounded-xl" src="/assets/webAppDesign-CKFZAymy.png"
+                                    alt="Trulli">
+                                <div class="px-4 mt-3">
+                                    <figcaption>
+                                        <div class="flex justify-between">
+                                            <h3 class="font-poppins text-lg font-semibold leading-8 ">Web App design
+                                            </h3>
+                                            <span class="text-[#FEA31B]"> <i class="fa-solid fa-star"></i>
+                                                4.5</span>
+                                        </div>
+                                        <p class="mt-2.5 font-poppins text-sm font-normal leading-6">Get the best
+                                            course, gain
+                                            knowledge and shine for your future
+                                            career.</p>
+                                        <div class="mt-1.5 flex justify-between items-center">
+                                            <span class="font-poppins font-semibold text-black text-lg">$120.75</span>
+                                            <button class="w-28 h-12 rounded-3xl bg-black text-white">Book
+                                                Now</button>
+                                        </div>
+                                    </figcaption>
+                                </div>
+                            </figure>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="bg-[#2E2100] h-72 mt-24 md:h-fit md:py-6">
+            <div
+                class="mx-auto w-[90%] flex items-center h-full md:max-w-screen-md lg:max-w-screen-lg xl:max-w-[1170px] relative">
+                <div class="w-2/5 md:max-lg:flex md:max-lg:flex-col md:max-lg:items-center template-string-1">
+
+                </div>
+
+                <div class="w-3/5 max-sm:w-[90%] md:h-[80%] template-string-2">
+                </div>
+
+                <!--DOT-->
+                <div class="flex items-center flex-start mt-6 absolute left-0 top-48">
+                    <svg class="hidden">
+                        <symbol id="dot" viewBox="0 0 6 6">
+                            <circle cx="3" cy="3" r="3" fill="currentColor" />
+                        </symbol>
+                    </svg>
+
+                    <label for="dot1">
+                        <input id="dot1" name="dot" class="peer hidden" type="radio" checked>
+                        <svg class="text-[#634700] peer-checked:text-[#FFB900] peer-checked:opacity-100
+                                        transition-all opacity-70 duration-700 ease-in-out delay-200"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="6" viewBox="0 0 30 6" fill="none">
+                            <use href="#dot" />
+                        </svg>
+                    </label>
+                    <label for="dot2">
+                        <input id="dot2" name="dot" class="peer hidden" type="radio">
+                        <svg class="text-[#634700] peer-checked:text-[#FFB900] 
+                                        peer-checked:opacity-100
+                                        transition-all opacity-70 duration-700 ease-in-out delay-200"
+                            xmlns="http://www.w3.org/2000/svg" width="30" height="6" viewBox="0 0 30 6" fill="none">
+                            <use href="#dot" />
+                        </svg>
+                    </label>
+                    <label for="dot3">
+                        <input id="dot3" name="dot" class="peer hidden" type="radio">
+                        <svg class="text-[#634700] peer-checked:text-[#FFB900] 
+                                        peer-checked:opacity-100
+                                        transition-all opacity-70 duration-700 ease-in-out delay-200
+                                        " xmlns="http://www.w3.org/2000/svg" width="30" height="6" viewBox="0 0 30 6"
+                            fill="none">
+                            <use href="#dot" />
+                        </svg>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <section aria-labelledby="outcomes-heading">
+            <div class="w-[90%] mx-auto pt-20 md:max-w-screen-md lg:max-w-screen-lg xl:max-w-[1170px]">
+                <div class="flex max-sm:flex-col">
+                    <div class="hidden max-sm:block w-full">
+                        <h2 id="outcomes-heading" class="font-sen text-4xl font-bold leading-10 w-full">
+                            Learner
+                            outcomes
+                            through our awesome
+
+                            platform
+                        </h2>
+                    </div>
+                    <div
+                        class="w-1/2 flex justify-between h-200 pr-9 max-sm:w-full max-sm:pr-0 max-sm:justify-center max-sm:my-10">
+                        <div class="self-end w-64 h-96 bg-[url(./images/learner1.png)] rounded-2xl bg-size-cover bg-no-repeat 
+                            md:max-lg:w-2/4 md:max-lg:h-2/4 md:max-lg:bg-[right_10%_bottom_30%] 
+                            ">
+                        </div>
+                        <div class="self-start w-64 h-96 bg-[url(./images/learner2.png)] rounded-2xl bg-size-cover bg-no-repeat
+                            md:max-lg:w-2/4 md:max-lg:h-2/4 md:max-lg:bg-[right_10%_bottom_40%] max-sm:hidden">
+                        </div>
+                    </div>
+                    <div class="w-1/2 pl-9 max-sm:pl-0 max-sm:w-full">
+                        <h2 id="outcomes-heading" class="max-sm:hidden font-sen text-4xl font-bold leading-12 w-lg tracking-tight md:max-lg:w-full
+                        md:max-lg:leading-10">Learner
+                            outcomes
+                            through our awesome
+                            platform
+                        </h2>
+                        <p class="mt-5 font-poppins text-base font-normal leading-7 text-[#5F5B53] ">
+                            87% of people learning for professional development report career benefits like getting
+                            a
+                            promotion, a raise, or
+                            starting a new career.
+                        </p>
+                        <div class="text-[#5F5B53] font-poppins text-base font-normal leading-7 mt-3.5">Lesson
+                            Impact
+                            Report
+                            (2022)</div>
+                        <button class="w-32 h-12 rounded-3xl bg-[#FFB900] text-white mt-6 max-sm:w-full ">Sign
+                            Up</button>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </section>
+
+        <section class="mt-36" aria-labelledby="next-steps-heading">
+            <div class="w-full max-w-[90%] mx-auto flex md:container lg:container xl:max-w-1170">
+                <div class="w-1/2 pr-9 flex flex-col justify-center max-sm:w-full max-sm:pr-0">
+                    <h2 id="next-steps-heading" class="w-full font-sen text-3xl font-bold tracking-tight">Take the next
+                        step toward your
+                        personal
+                        and professional goals with Lesson.</h2>
+
+                    <div class="w-full max-sm:block hidden mt-5">
+                        <img class="h-52 w-full object-cover rounded-3xl" src="/assets/personalCOurse-Ci9yAxdg.png"
+                            alt="Personal course dashboard">
+                    </div>
+                    <p class="text-[#5F5B53] font-poppins text-base font-normal leading-7 mt-5">
+                        Take the next step toward. Join now to receive personalized and more recommendations from
+                        the
+                        full Coursera catalog.
+                    </p>
+                    <button class="w-32 h-12 rounded-3xl bg-[#FFB900] text-white mt-6 max-sm:w-full">Join Now</button>
+                </div>
+                <div class="w-1/2 pl-9 max-sm:hidden">
+                    <img class="h-404 w-full object-cover rounded-3xl" src="/assets/personalCOurse-Ci9yAxdg.png"
+                        alt="Personal course dashboard">
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-container pb-20 mt-28 pt-16">
+            <div class="w-full max-sm:w-[90%] mx-auto flex flex-col md:container lg:containter xl:max-w-1170">
+                <div class="flex flex-col">
+                    <h2 class="text-black text-center font-sen text-4xl font-bold leading-12 tracking-tighter">Our
+                        blog</h2>
+                    <div class="flex justify-center">
+                        <p class="w-md  text-[#696262] font-poppins text-base font-normal leading-7 text-center">
+                            Read
+                            our
+                            regular
+                            travel blog and know the latest update of tour and travel</p>
+                    </div>
+                </div>
+                <article class="pt-11">
+                    <ul class="grid grid-cols-3 gap-3 md:max-lg:grid-cols-2 max-sm:grid-cols-1">
+                        <li class="w-[calc(20rem+3.125rem)] h-466 bg-white rounded-2xl">
+                            <figure class="w-full rounded-2xl">
+                                <img class="w-full h-64 rounded-t-2xl" src="/assets/becomeWebDesigner-CL-3Eqy0.png"
+                                    alt="Trulli">
+                                <figcaption class="pl-11 pt-6 max-sm:pl-0">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+                                            fill="none">
+                                            <circle cx="3" cy="3" r="3" fill="#FFB900" />
+                                        </svg>
+                                        <p class="ml-1.5 text-text-p font-poppins text-sm font-normal leading-6">21
+                                            November
+                                            2021</p>
+                                    </div>
+                                    <hr class="w-40 text-[#E2DFDA] mt-4">
+                                    <div
+                                        class="mt-2.5 w-80 text-[##171100] font-poppins text-base font-semibold leading-7">
+                                        How to become a pro web designer in 2022 and get remote job?
+                                    </div>
+                                    <div class="max-sm:text-center">
+                                        <button class="w-28 h-12 rounded-3xl bg-[#FFB900] text-white mt-2">Read
+                                            more</button>
+                                    </div>
+
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="w-[calc(20rem+3.125rem)] h-466 bg-white rounded-2xl">
+                            <figure class="w-full rounded-2xl">
+                                <img class="w-full h-64 rounded-t-2xl" src="/assets/webDesigner2-DsgWe-Bv.png" alt="Trulli">
+                                <figcaption class="pl-11 pt-6 max-sm:pl-0">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+                                            fill="none">
+                                            <circle cx="3" cy="3" r="3" fill="#FFB900" />
+                                        </svg>
+                                        <p class="ml-1.5 text-text-p font-poppins text-sm font-normal leading-6">21
+                                            November
+                                            2021</p>
+                                    </div>
+                                    <hr class="w-40 text-[#E2DFDA] mt-4">
+                                    <div
+                                        class="mt-2.5 w-80 text-[##171100] font-poppins text-base font-semibold leading-7">
+                                        How to become a pro web designer in 2022 and get remote job?
+                                    </div>
+                                    <div class="max-sm:text-center">
+                                        <button class="w-28 h-12 rounded-3xl bg-black text-white mt-2">Read
+                                            more</button>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+
+                        <li class="w-[calc(20rem+3.125rem)] h-466 bg-white rounded-2xl">
+                            <figure class="w-full rounded-2xl">
+                                <img class="w-full h-64 rounded-t-2xl" src="/assets/webDesigner3-7NmbQ0j_.png" alt="Trulli">
+                                <figcaption class="pl-11 pt-6 max-sm:pl-0">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+                                            fill="none">
+                                            <circle cx="3" cy="3" r="3" fill="#FFB900" />
+                                        </svg>
+                                        <p class="ml-1.5 text-text-p font-poppins text-sm font-normal leading-6">21
+                                            November
+                                            2021</p>
+                                    </div>
+                                    <hr class="w-40 text-[#E2DFDA] mt-4">
+                                    <div
+                                        class="mt-2.5 w-80 text-[##171100] font-poppins text-base font-semibold leading-7">
+                                        How to become a pro web designer in 2022 and get remote job?
+                                    </div>
+                                    <div class="max-sm:text-center">
+                                        <button class="w-28 h-12 rounded-3xl bg-black text-white mt-2">Read
+                                            more</button>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </article>
+
+                <div class="mt-8 flex justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="6" viewBox="0 0 30 6" fill="none">
+                        <circle cx="3" cy="3" r="3" fill="#5F5B53" />
+                        <circle cx="15" cy="3" r="3" fill="#FFB900" />
+                        <circle cx="27" cy="3" r="3" fill="#5F5B53" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-footer h-fit pt-20 pb-5">
+        <div class="w-full max-sm:w-[90%] max-w-1170 mx-auto md:max-w-screen-md lg:max-w-lg xl:max-w-1170">
+            <div class="flex max-sm:flex-col">
+                <div class="w-30 pr-20 md:max-lg:pr-12 max-sm:w-full max-sm:pr-0">
+                    <img class="h-5 max-sm:w-[30%]" src="data:image/png;base64,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" alt="Logo">
+                    <p
+                        class="mt-8 w-64 md:max-lg:max-w-full text-[#BFBCB2] font-poppins text-sm font-normal leading-6 max-sm:w-full">
+                        Need to help for your dream Career? trust us. With Lesson, study becomes a lot easier with us.
+                    </p>
+                    <div class="text-white w-28 mt-7 h-4 max-sm:w-full max-sm:flex max-sm:justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="111" height="15" viewBox="0 0 111 15"
+                            fill="none">
+                            <path
+                                d="M5.64991 15C3.57026 15 1.63168 14.3864 0 13.3276C1.38535 13.4185 3.83019 13.2007 5.35087 11.7292C3.06326 11.6227 2.0316 9.8428 1.89703 9.08215C2.0914 9.15822 3.01841 9.24949 3.54172 9.03651C0.91022 8.36714 0.506525 6.02434 0.596235 5.30933C1.08964 5.65923 1.92694 5.78093 2.25587 5.75051C-0.196205 3.97059 0.685945 1.2931 1.11954 0.71501C2.87924 3.18826 5.51649 4.57733 8.7791 4.65459C8.71759 4.38089 8.6851 4.09593 8.6851 3.80325C8.6851 1.70277 10.3586 0 12.423 0C13.5016 0 14.4735 0.46484 15.1558 1.20837C15.8766 1.03703 16.9613 0.635914 17.4916 0.289047C17.2243 1.26268 16.3922 2.07488 15.8888 2.37592C15.8847 2.36563 15.893 2.38616 15.8888 2.37592C16.331 2.30807 17.5274 2.07481 18 1.74949C17.7663 2.29647 16.884 3.20591 16.16 3.71506C16.2947 9.74221 11.7492 15 5.64991 15Z"
+                                fill="white" />
+                            <path
+                                d="M44.4103 8.37379L44.8767 5.67961H41.9589V3.93204C41.9589 3.1948 42.3657 2.47573 43.6726 2.47573H45V0.182039C45 0.182039 43.7959 0 42.6452 0C40.2411 0 38.6712 1.29064 38.6712 3.62621V5.67961H36V8.37379H38.6712V14.8871C39.2075 14.9618 39.7562 15 40.3151 15C40.874 15 41.4226 14.9618 41.9589 14.8871V8.37379H44.4103Z"
+                                fill="white" />
+                            <path
+                                d="M66.6186 1.81302C66.6186 2.81432 65.8085 3.62603 64.8093 3.62603C63.81 3.62603 63 2.81432 63 1.81302C63 0.811715 63.81 0 64.8093 0C65.8085 0 66.6186 0.811715 66.6186 1.81302Z"
+                                fill="white" />
+                            <path d="M63.2474 4.95868H66.3402V15H63.2474V4.95868Z" fill="white" />
+                            <path
+                                d="M71.3196 4.95868H68.2268V15H71.3196C71.3196 15 71.3196 11.8388 71.3196 9.86235C71.3196 8.67602 71.6977 7.4845 73.2062 7.4845C74.911 7.4845 74.9008 9.037 74.8928 10.2397C74.8824 11.8119 74.9072 13.4163 74.9072 15H78V9.70041C77.9738 6.31647 77.1508 4.75723 74.4433 4.75723C72.8354 4.75723 71.8387 5.53935 71.3196 6.24696V4.95868Z"
+                                fill="white" />
+                            <path
+                                d="M108.75 3.375C108.75 3.99632 108.246 4.5 107.625 4.5C107.004 4.5 106.5 3.99632 106.5 3.375C106.5 2.75368 107.004 2.25 107.625 2.25C108.246 2.25 108.75 2.75368 108.75 3.375Z"
+                                fill="white" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M103.5 11.25C105.571 11.25 107.25 9.57107 107.25 7.5C107.25 5.42893 105.571 3.75 103.5 3.75C101.429 3.75 99.75 5.42893 99.75 7.5C99.75 9.57107 101.429 11.25 103.5 11.25ZM103.5 9.75C104.743 9.75 105.75 8.74264 105.75 7.5C105.75 6.25736 104.743 5.25 103.5 5.25C102.257 5.25 101.25 6.25736 101.25 7.5C101.25 8.74264 102.257 9.75 103.5 9.75Z"
+                                fill="white" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M96 7.2C96 4.67976 96 3.41965 96.4905 2.45704C96.9219 1.61031 97.6103 0.921901 98.457 0.490471C99.4196 0 100.68 0 103.2 0H103.8C106.32 0 107.58 0 108.543 0.490471C109.39 0.921901 110.078 1.61031 110.51 2.45704C111 3.41965 111 4.67976 111 7.2V7.8C111 10.3202 111 11.5804 110.51 12.543C110.078 13.3897 109.39 14.0781 108.543 14.5095C107.58 15 106.32 15 103.8 15H103.2C100.68 15 99.4196 15 98.457 14.5095C97.6103 14.0781 96.9219 13.3897 96.4905 12.543C96 11.5804 96 10.3202 96 7.8V7.2ZM103.2 1.5H103.8C105.085 1.5 105.958 1.50117 106.633 1.55633C107.291 1.61006 107.627 1.70745 107.862 1.82698C108.426 2.1146 108.885 2.57354 109.173 3.13803C109.293 3.37263 109.39 3.70893 109.444 4.36656C109.499 5.04169 109.5 5.91513 109.5 7.2V7.8C109.5 9.08487 109.499 9.95831 109.444 10.6334C109.39 11.2911 109.293 11.6274 109.173 11.862C108.885 12.4265 108.426 12.8854 107.862 13.173C107.627 13.2926 107.291 13.3899 106.633 13.4437C105.958 13.4988 105.085 13.5 103.8 13.5H103.2C101.915 13.5 101.042 13.4988 100.367 13.4437C99.7089 13.3899 99.3726 13.2926 99.138 13.173C98.5735 12.8854 98.1146 12.4265 97.827 11.862C97.7074 11.6274 97.6101 11.2911 97.5563 10.6334C97.5012 9.95831 97.5 9.08487 97.5 7.8V7.2C97.5 5.91513 97.5012 5.04169 97.5563 4.36656C97.6101 3.70893 97.7074 3.37263 97.827 3.13803C98.1146 2.57354 98.5735 2.1146 99.138 1.82698C99.3726 1.70745 99.7089 1.61006 100.367 1.55633C101.042 1.50117 101.915 1.5 103.2 1.5Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="w-70 md:max-lg:max-w-full md:max-lg:pl-12 pl-20 flex justify-between max-sm:pl-0 max-sm:my-10
+                    max-sm:flex-wrap max-sm:w-full
+                    ">
+                    <div>
+                        <h2 class="text-white font-poppins text-base font-semibold leading-7">Company</h2>
+                        <hr class="w-32 text-[#59554B] mt-2.5">
+                        <ul class="text-[#BFBCB2] font-poppins text-base font-normal leading-6">
+                            <li class="my-4">About Us</li>
+                            <li class="my-4">Features</li>
+                            <li class="my-4">Out Pricing</li>
+                            <li class="mt-4">Latest News</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="text-white font-poppins text-base font-semibold leading-7">Support</h2>
+                        <hr class="w-32 text-[#59554B] mt-2.5">
+                        <ul class="text-[#BFBCB2] font-poppins text-base font-normal leading-6">
+                            <li class="my-4">FAQ's</li>
+                            <li class="my-4">Terms & Conditions</li>
+                            <li class="my-4">Privacy Policy</li>
+                            <li class="mt-4">Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="max-sm:mt-10">
+                        <h2 class="text-white font-poppins text-base font-semibold leading-7">Address</h2>
+                        <hr class="w-32 text-[#59554B] mt-2.5">
+                        <div class="w-full">
+                            <div class="flex w-60 my-4 text-left">
+                                <span class="text-white font-poppins text-base font-semibold leading-6 w-full">Location:
+                                    <span
+                                        class="text-[#BFBCB2] font-poppins text-base font-normal leading-6 ml-1 w-full">27
+                                        Division
+                                        St,
+                                        New York, NY 10002, USA</span>
+                                </span>
+
+                            </div>
+
+                            <div class="flex w-60 my-4">
+                                <span class="text-white font-poppins text-base font-semibold leading-6">Email: </span>
+                                <span
+                                    class="text-[#BFBCB2] font-poppins text-base font-normal leading-6 ml-1">email@gmail.com</span>
+                            </div>
+
+                            <div class="flex w-60 my-4">
+                                <span class="text-white font-poppins text-base font-semibold leading-6">Phone: </span>
+                                <span class="text-[#BFBCB2] font-poppins text-base font-normal leading-6 ml-1">+ 000
+                                    1234
+                                    567 890</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-[#59554B] mt-8">
+            <div class=" mt-4 flex justify-center text-[#807D74] font-poppins text-base font-normal leading-6 ml-1">
+                Copyright ©2022 web design.gdn All rights reserved
+            </div>
+        </div>
+    </footer>
+    <script src="./handle.js"></script>
+</body>
+
+</html>
