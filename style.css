@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-bg-myPage: #fffcf4;
+    --color-text-p: #5F5B53;
+    --color-btn: #ffb900;
+    --color-container: rgba(255, 252, 244, 1);
+    --color-footer: rgba(46, 33, 0, 1);
+    --color-overlay: rgba(0, 0, 0, 0.5);
+
+    --height-200: 25rem;
+    --height-278: 17.375rem;
+    --height-404: 25.25rem;
+    --height-466: 29.125rem;
+    --height-500: 31.25rem;
+
+    --width-370: 23.125rem;
+    --width-30: 30%;
+    --width-70: 70%;
+    --max-width-370: 23.125rem;
+    --max-width-1170: 73.125rem;
+    --min-width-mobile: 37.5rem;
+
+
+    --font-poppins: 'Poppins', sans-serif;
+    --font-sen: 'Sen', sans-serif;
+}
