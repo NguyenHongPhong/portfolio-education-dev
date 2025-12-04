@@ -5,7 +5,7 @@ function handleSlide() {
 
     const templateObjects = [
         {
-            tmp1: ['<img class="w-16 h-16 rounded-full max-sm:self-center" src="./images/peterMoon.png alt="Peter Moor student profile">',
+            tmp1: ['<img class="w-16 h-16 rounded-full max-sm:self-center" src="./images/peterMoon.png" alt="Peter Moor student profile">',
                 '<h3 class="text-white mt-4 text-2xl font-bold leading-9 font-sen max-sm:text-base">Peter Moor</h3>',
                 '<div class="text-[#BFBCB2] font-poppins text-sm font-normal leading-6 mt-3">Student of Web Design</div>'
             ],
@@ -22,8 +22,8 @@ function handleSlide() {
                         certificates also bring me closer to my career goals by validating the skills I've learned."
                     </p>`]
         }, {
-            tmp1: [`<img class="w-16 h-16 rounded-full max-sm:self-center" src="./images/learner1.png"
-                            alt="Peter Moor student profile">`, `<h3 class="text-white mt-4 text-2xl font-bold leading-9 font-sen max-sm:text-base">Peter Nguyen</h3>`,
+            tmp1: [`<img class="w-16 h-16 rounded-full max-sm:self-center" src="./images/learner1.png" alt="Peter Moor student profile">`,
+                `<h3 class="text-white mt-4 text-2xl font-bold leading-9 font-sen max-sm:text-base">Peter Nguyen</h3>`,
                 `<div class="text-[#BFBCB2] font-poppins text-sm font-normal leading-6 mt-3">Developer</div>`
             ]
             , tmp2: [` <svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 30 28" fill="none">
